@@ -11,7 +11,7 @@
 
     checkbox.type = "checkbox";
 
-    //
+    //funcion para señalar el texto
     checkbox.onclick = function () {
         let parent = this.parentElement;
         if (this.checked) {
